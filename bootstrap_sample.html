@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+
+  }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="page-header">
+    <h1>Home</h1>      
+  </div>
+  
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">DOES</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Departments</a></li>
+      <li><a href="#">Contact US</a></li>
+     
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="img/1.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/2.jpg" alt="Chania" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/3.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beautiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/odie1.jpg" alt="Flower" width="300" height="100">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beautiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="img/odie2.jpg" alt="Flower" width="300" height="100">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beautiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+       <div class="item">
+        <img src="img/odie3.jpg" alt="Flower" width="300" height="100">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beautiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+  
+    </div>
+
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  
+  <br>
+  <br>
+  <section class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+            <h2> Column 1 </h2>
+            <p>
+
+            <a class="twitter-timeline" href="https://twitter.com/DOES_DC">Tweets by DOES_DC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+               </p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+            <h2> Column 2 </h2>
+            <p>Using a single set of .col-md-* grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any .row.Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:
+ </p>
+                </div>
+
+                <div class="clearfix visible-sm"></div><!-- remove space so that text can be aligned-->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+            <h2> Column 3 </h2>
+            <p>Using a single set of .col-md-* grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any .row.Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:
+
+                Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
+                Use rows to create horizontal groups of columns.
+                 </p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+            <h2> Column 4 </h2>
+            <p>Using a single set of .col-md-* grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any .row.Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:
+
+                Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding. </p>
+                </div><!--/col-->
+
+            </section><!--/row-->
+<br>
+
+  
+  <div class="container">
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">HOME</button>
+    <button type="button" class="btn btn-primary">DEPARTMENTS</button>
+    <button type="button" class="btn btn-primary">CONTACT US</button>
+    <button type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+  <h2>Nesting Button Groups</h2>
+  <p>Nest button groups to create drop down menus:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Sony <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Smartphone</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">
+     <h1>Schedule</h1>
+    
+    </div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">
+     <h1>Spotlight</h1>
+    
+    
+    </div>
+    
+    <div class="col-sm-4" style="background-color:white;">
+    <h1>Director</h1>
+    <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAjdAAAAJDAyZjUxMTc2LWIyNjEtNGE1Ni04OWQ3LTQzYzNlY2EzMWVlOQ.jpg" class="img-circle" alt="does" width="304" height="236"></div>
+  
+  </div>
+</div>
+    
+<button type="button" class="btn">LEARN MORE</button>    
+    
+ <input type="submit" class="btn btn-info" value="Submit Button">
+ <br>
+ 
+ <div class="container">
+  <h2>Striped Progress Bars</h2>
+  <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+      40% Complete (success)
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      50% Complete (info)
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% Complete (warning)
+    </div>
+  </div>
+  <div class="container">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70% Complete (danger)
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+                 
+  <ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+
+
+<div class="container">
+  <h2>LATEST</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Press Releases</a></li>
+    <li><a data-toggle="tab" href="#menu1">News</a></li>
+    
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      
+      <p>Washington Metro Labor Force Grows to 80,800 from one year ago</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Utility Workforce Training Coming to DC</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="img/employee.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+ 
+
+
+ 
+</body>
+</html>
+
